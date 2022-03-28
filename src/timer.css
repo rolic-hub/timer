@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    justify-content: center;
+    width:100%;
+
+    align-items: center;
+    background-color:transparent;
+}
+
+.timer{
+    border-style:solid;
+    border-radius: 0.5rem;
+    display: flex;
+     justify-content:center;
+     align-items: center;
+     margin-top: 5rem;
+     width:60%;
+     position:center;
+     box-sizing: border-box;
+     justify-self: center;
+     background-color:rgb(210, 210, 247);
+     margin-bottom: 1rem;
+
+
+}
+.timer div{
+
+    margin-top:1rem;
+     width:60%;
+      margin-bottom:1rem;
+      margin-right: 1rem;
+       margin-left: 1rem;
+     border-style:solid;
+     text-align: center;
+     background-color:white;
+     display :inline;
+     text-decoration: wavy;
+     
+
+}.timer div span{
+    margin:0.2rem;
+}
+
+
+.forms form{
+    width:60%;
+    justify-content: center;
+    display: flex;
+   margin-left: 0.2rem;
+   margin-right: 0.2rem;
+   margin-top: 5rem;
+}
+.forms form span{
+    margin-left: 1rem;
+    display: inline;
+
+    margin-right: -2rem;
+   
+}
+.event{
+    margin-top: 1rem;
+    width:60%;
+    display: flex;
+}
+.event form{
+    display: flex;
+}
+.event form input{
+    margin-left: -40rem;
+}
+.button{
+    margin-left: 1rem;
+    background-color: rgb(142, 182, 182);
+    border-radius: 0.2rem;
+}
+.constant{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    text-allign: center;
+    
+}
+.btn-event {
+    align-items: center;
+    justify-self: center;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 300px;
+    border-radius: 0.2rem;
+    color: white;
+    background-color: rgb(77, 57, 57);
+    border: none;
+}
